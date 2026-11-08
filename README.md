@@ -95,7 +95,7 @@ See [TEST-004 results and limitations](docs/TEST-004-results.md).
 
 ## Evidence status
 
-**141 of the 151 reviewed screenshots are currently present in the repository.** The missing 10 files are from the October 15 GNS3 setup stage. All other screenshots are in their expected date folders; the two originally password-exposing images match the redacted publication archive by Git blob hash.
+**All 151 reviewed screenshots are now present in the repository**, organized into four date-based folders. The two originally password-exposing images were checked against the redacted publication archive by Git blob hash during the prior audit.
 
 The original `TEST-004/alert_fast.txt` and PCAP data have **not** been uploaded. See [evidence notes](evidence/README.md).
 
@@ -121,7 +121,7 @@ The original `TEST-004/alert_fast.txt` and PCAP data have **not** been uploaded.
 
 The complete [**151-image annotated lab timeline**](docs/SCREENSHOT_TIMELINE.md) describes each original capture, its diagnostic purpose, and its role in troubleshooting. The [**screenshot index (CSV)**](docs/SCREENSHOT_INDEX.csv) records expected paths, descriptions, audit status, and SHA-256 values of the publication-reviewed images.
 
-**Outstanding image upload:** The 10 missing files are the early screenshots `image(20261015-230942).png` through `image(20261015-233233).png` (index entries **005–014**), all belonging in `screenshots/2026-10-15/`. The date folders and remaining 141 screenshots are published.
+**Screenshot upload complete:** All 151 filenames in the published screenshot index are represented in `screenshots/`, including entries **005–014** from October 15.
 
 ## Limitations
 
