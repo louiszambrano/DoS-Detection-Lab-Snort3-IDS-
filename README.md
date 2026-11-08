@@ -95,11 +95,33 @@ See [TEST-004 results and limitations](docs/TEST-004-results.md).
 
 ## Evidence status
 
-Original screenshots of topology, tcpdump, live Snort alerts, and alert counts were collected during this project. **Images and raw PCAP/alert files have not yet been uploaded to this GitHub repository.** See [evidence notes](evidence/README.md) for the safe upload checklist.
+**141 of the 151 reviewed screenshots are currently present in the repository.** The missing 10 files are from the October 15 GNS3 setup stage. All other screenshots are in their expected date folders; the two originally password-exposing images match the redacted publication archive by Git blob hash.
+
+The original `TEST-004/alert_fast.txt` and PCAP data have **not** been uploaded. See [evidence notes](evidence/README.md).
+
+### Selected screenshots
+
+**GNS3 topology — client, web server and passive Snort sensor**
+
+![GNS3 topology with client, Nginx server, monitoring hub, and Snort VM](screenshots/2026-11-03/image(20261103-042319).png)
+
+**Packet visibility — tcpdump monitoring live client-to-server traffic**
+
+![Snort Ubuntu sensor receives ICMP requests and replies](screenshots/2026-11-03/image(20261103-042647).png)
+
+**Live IDS — elevated ICMP-rate alerts**
+
+![Snort 3 live custom ICMP detection rules triggered](screenshots/2026-11-03/image(20261103-042911).png)
+
+**TEST-004 verification — 30 basic alerts and 25 elevated-rate alerts**
+
+![Snort TEST-004 final grep alert counts](screenshots/2026-11-03/image(20261103-043146).png)
 
 ### Screenshot-by-screenshot troubleshooting record
 
-The complete [**151-image annotated lab timeline**](docs/SCREENSHOT_TIMELINE.md) explains each captured step, its diagnostic purpose, and what it contributed to the final solution. The [**screenshot index (CSV)**](docs/SCREENSHOT_INDEX.csv) records chronological filenames, review status, and SHA-256 checksums of the publication-reviewed images. The two screenshots showing setup passwords have been redacted in the reviewed archive, but the PNG images themselves are **not yet hosted on GitHub**. The separate downloadable project package includes four original screenshots.
+The complete [**151-image annotated lab timeline**](docs/SCREENSHOT_TIMELINE.md) describes each original capture, its diagnostic purpose, and its role in troubleshooting. The [**screenshot index (CSV)**](docs/SCREENSHOT_INDEX.csv) records expected paths, descriptions, audit status, and SHA-256 values of the publication-reviewed images.
+
+**Outstanding image upload:** The 10 missing files are the early screenshots `image(20261015-230942).png` through `image(20261015-233233).png` (index entries **005–014**), all belonging in `screenshots/2026-10-15/`. The date folders and remaining 141 screenshots are published.
 
 ## Limitations
 
