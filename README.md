@@ -10,7 +10,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Blue%20Team%20%7C%20IDS-2563eb?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-GNS3%20%2B%20Snort%203-475569?style=flat-square)
 
-**[🏗️ Architecture](#️-lab-architecture) · [🧪 Test Results](#-test-004--verified-results) · [📸 Screenshots](#-screenshots--visual-evidence) · [🗂️ Full Timeline](docs/SCREENSHOT_TIMELINE.md)**
+**[🏗️ Architecture](#architecture) · [🧪 Test Results](#test-results) · [📸 Screenshots](#screenshots) · [🗂️ Full Timeline](docs/SCREENSHOT_TIMELINE.md)**
 
 </div>
 
@@ -20,6 +20,7 @@
 
 > **Scope:** This project demonstrates ICMP request and rate detection in a controlled virtual environment. It does **not** demonstrate successful denial of service, production-grade rule tuning, or attack attribution.
 
+<a id="test-results"></a>
 ## 📊 TEST-004 — Verified Results
 
 | Measurement | Verified result |
@@ -35,6 +36,7 @@
 
 > 🧠 **Interpreting the results:** 55 logged alerts are **not** 55 attacks. The experiment validated detection of ICMP traffic and elevated request rates; it did not demonstrate a successful denial of service.
 
+<a id="architecture"></a>
 ## 🏗️ Lab Architecture
 
 ```mermaid
@@ -117,6 +119,7 @@ See [TEST-004 results and limitations](docs/TEST-004-results.md).
 
 The original `TEST-004/alert_fast.txt` and PCAP data have **not** been uploaded. See [evidence notes](evidence/README.md).
 
+<a id="screenshots"></a>
 ### 📸 Screenshots — Visual Evidence
 
 **🕸️ Network topology:** Client, web server, monitoring hub, and passive Snort sensor
