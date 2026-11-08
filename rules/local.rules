@@ -1,0 +1,15 @@
+# Snort 3 custom signatures — validated in the isolated GNS3 lab
+alert icmp 10.10.10.10 any -> 10.10.10.20 any (
+    msg:"LAB-001 ICMP Echo Request Detected";
+    itype:8;
+    sid:1000001;
+    rev:1;
+)
+
+alert icmp 10.10.10.10 any -> 10.10.10.20 any (
+    msg:"LAB-002 Elevated ICMP Request Rate Detected";
+    itype:8;
+    detection_filter:track by_dst,count 5,seconds 2;
+    sid:1000002;
+    rev:2;
+)
