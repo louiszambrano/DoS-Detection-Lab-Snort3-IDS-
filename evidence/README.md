@@ -1,6 +1,6 @@
 # Evidence
 
-141 of 151 publication-reviewed screenshots are committed under `screenshots/` in date-based folders. Ten early GNS3 screenshots (index entries 005–014) remain missing. Original Snort raw alert logs and packet captures have not been committed.
+All 151 publication-reviewed screenshots are committed under `screenshots/` in date-based folders. Original Snort raw alert logs and packet captures have not been committed.
 
 Key project screenshots can now be viewed directly in the [README](../README.md), including topology, packet capture, live Snort 3 alerts, and verified alert counts. The original two password-exposing screenshots were replaced with reviewed, redacted versions before uploading.
 
