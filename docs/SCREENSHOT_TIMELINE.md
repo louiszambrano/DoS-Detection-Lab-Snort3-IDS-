@@ -26,7 +26,7 @@ Other screenshots contain **internal/private lab IP addresses**, machine/user na
 
 ## Every screenshot — annotated chronology
 
-> **Image upload status:** The annotated filenames refer to the separate reviewed screenshot archive. The corresponding PNGs are not yet in this repository. This document is readable independently of those images.
+> **Image upload status:** 141 of the 151 reviewed PNG files are published under `screenshots/` in date-based folders. The 10 missing screenshots are entries **005–014** from October 15, 2026. Their entries remain documented here but their images are not yet available on GitHub.
 
 
 
