@@ -95,7 +95,11 @@ See [TEST-004 results and limitations](docs/TEST-004-results.md).
 
 ## Evidence status
 
-Original screenshots of topology, tcpdump, live Snort alerts, and alert counts were collected during this project. **Images and raw PCAP/alert files have not yet been uploaded to this GitHub repository.** See [evidence notes](evidence/README.md) for the safe upload checklist. The separate downloadable project package includes four original screenshots.
+Original screenshots of topology, tcpdump, live Snort alerts, and alert counts were collected during this project. **Images and raw PCAP/alert files have not yet been uploaded to this GitHub repository.** See [evidence notes](evidence/README.md) for the safe upload checklist.
+
+### Screenshot-by-screenshot troubleshooting record
+
+The complete [**151-image annotated lab timeline**](docs/SCREENSHOT_TIMELINE.md) explains each captured step, its diagnostic purpose, and what it contributed to the final solution. The [**screenshot index (CSV)**](docs/SCREENSHOT_INDEX.csv) records chronological filenames, review status, and SHA-256 checksums of the publication-reviewed images. The two screenshots showing setup passwords have been redacted in the reviewed archive, but the PNG images themselves are **not yet hosted on GitHub**. The separate downloadable project package includes four original screenshots.
 
 ## Limitations
 
