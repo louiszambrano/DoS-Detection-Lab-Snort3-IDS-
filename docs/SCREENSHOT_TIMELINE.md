@@ -26,7 +26,7 @@ Other screenshots contain **internal/private lab IP addresses**, machine/user na
 
 ## Every screenshot — annotated chronology
 
-> **Image upload status:** 141 of the 151 reviewed PNG files are published under `screenshots/` in date-based folders. The 10 missing screenshots are entries **005–014** from October 15, 2026. Their entries remain documented here but their images are not yet available on GitHub.
+> **Image upload status:** All 151 reviewed PNG files have been uploaded under `screenshots/` in four date-based folders. Filenames in this timeline correspond to those images.
 
 
 
