@@ -1,12 +1,8 @@
 # Evidence
 
-Original screenshots and raw log files have not yet been committed to this repository.
+141 of 151 publication-reviewed screenshots are committed under `screenshots/` in date-based folders. Ten early GNS3 screenshots (index entries 005–014) remain missing. Original Snort raw alert logs and packet captures have not been committed.
 
-The completed downloadable project package provided in ChatGPT includes four original screenshots:
-- GNS3 monitoring topology
-- Simultaneous tcpdump / ping traffic
-- Live Snort 3 alerts
-- Alert-count verification (30 basic, 25 elevated-rate)
+Key project screenshots can now be viewed directly in the [README](../README.md), including topology, packet capture, live Snort 3 alerts, and verified alert counts. The original two password-exposing screenshots were replaced with reviewed, redacted versions before uploading.
 
 The raw alert file was saved on Ubuntu at:
 
