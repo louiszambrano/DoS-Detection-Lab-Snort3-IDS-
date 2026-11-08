@@ -1,0 +1,12 @@
+.env
+*.key
+*.pem
+*.p12
+*.ova
+*.vdi
+*.vbox
+*.pcap
+*.pcapng
+__pycache__/
+.DS_Store
+Thumbs.db
