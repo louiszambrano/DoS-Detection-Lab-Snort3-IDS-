@@ -586,13 +586,3 @@ The phase galleries below display selected evidence inline. **Every numbered scr
 **150 — [`image(20261103-043132).png`](../screenshots/2026-11-03/image%2820261103-043132%29.png)** — Snort file-logging process stopped. **Why:** Return to the shell after the logged test so outputs can be counted.
 
 **151 — [`image(20261103-043146).png`](../screenshots/2026-11-03/image%2820261103-043146%29.png)** — TEST-004 final alert counts. **Why:** Confirm 30 basic ICMP alerts and 25 elevated-rate alerts in alert_fast.txt.
-
-## Publish-ready interpretation
-
-At the end of TEST-004 the client sent 30 echo requests to 10.10.10.20; ping received 30 replies (0% loss). The locally recorded Snort event file contained **30 LAB-001 ICMP echo alerts** and **25 LAB-002 elevated-rate alerts**, giving **55 alert records**. These are detections of configured signatures, not proof of a successful denial-of-service attack.
-## Recommended GitHub presentation
-
-- Display a small curated set of screenshots (topology, rules, successful packet capture, final alert count) directly in README.
-- Link the complete screenshot index for readers who want a detailed troubleshooting history.
-- Avoid embedding all 151 full-resolution images on the main README; link them using the filename and caption instead.
-- Review the original timestamps before claiming a precise experiment chronology across machines or timezones.
