@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="screenshots/DDOS%20Detection%20Lab%20Thumbnail.png" alt="GNS3 and Snort 3 live IDS detection lab thumbnail featuring network monitoring, custom ICMP rules, and validated alerts" width="100%">
+
 # 🛡️ GNS3 + Snort 3 | Live IDS Detection Lab
 
 ### 🔍 From Packet Captures to Real-Time Threat Detection
